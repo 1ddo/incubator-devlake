@@ -1,0 +1,12 @@
+# must add this env vars to your ~/.profile - FOR DEV ONLY
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/libgit2-1.3.0/build
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/libgit2-1.3.0/cmake
+
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/install/prefix/lib/pkgconfig
+
+export PKG_CONFIG_PATH=/usr/local/lib
+
+export ENCRYPTION_SECRET=$ENCRYPTION_SECRET:XGWZCCVQFTZPMNHXWBXKPRBUAKBWDGGQRZTVFOWCMSCBEKGOPKUZOXGNDHMADJQYWTMDPTZFVJOVPXQVFKJNTPHDISFISOVWCTKFFKSYYFWNSHBXJTBHWQRWXXTHLJRC
+
+export ENV_FILE=/home/ed/ws/incubator-devlake/.env

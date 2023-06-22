@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "argocd"
+version = "0.1.0"
+description = ""
+authors = ["1ddo <idduspace@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pydevlake = { path = "../../pydevlake", develop = true }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
